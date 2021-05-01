@@ -1,0 +1,111 @@
+ body{
+     background-color: white;
+     padding-left : 50px;
+     padding-right : 50px;
+     Padding-top : 50px;
+     padding-bottom: 50px;
+
+ }
+ header{
+    background :#16338a;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding-left : 30px;
+    Padding-top : 70px;
+    padding-bottom: 70px;
+    margin: 0 1.5% 24px 1.5%;
+
+  }
+
+  .Profile_image{
+    padding-left: 50px;
+    padding-bottom:50px;
+    float : left;
+    width: 20%;
+  }
+  img {
+  border-radius: 50%;
+}
+.About_Me{
+  padding-left: -150px;
+  padding-right: 70px;
+  text-align: center;
+}
+a{
+  color: white;
+  padding-right: 2cm;
+  text-decoration: none;
+  font-style: oblique;
+}
+a:hover{
+  color: #cedaff;
+  text-decoration: underline;
+}
+  section{
+    background: #bee4ff;
+    border-radius: 6px;
+    border-color: #16338a;
+    color: rgb(24, 23, 23);
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding-left : 30px;
+    Padding-top : 50px;
+    padding-bottom: 30px;
+    margin: 0 0.5% 24px 1.5%;
+    float: left;
+    width : 31%;
+  }
+.language span{
+  display: inline-block;
+}
+  aside{
+    background: #bee4ff;
+    border-radius: 6px;
+    color: rgb(24, 23, 23);
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding-left : 40px;
+    Padding-top : 50px;
+    padding-bottom: 30px;
+    margin: 0 0.5% 24px 1.5%;
+    float: right;
+    width : 60%;
+    border-color: #16338a;
+    border-width: 2cm;
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  /* The timeline  */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: #16338a;
+    top: 0;
+    bottom: 0;
+    right : 40;
+    margin-left: -3px;
+  }
+  .container{
+      margin-left : 20px;
+  }
+  footer{
+    border-radius: 6px;
+    background: #16338a;
+    color:#cedaff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+    margin: 0 1.5% 24px 1.5%;
+    clear: both;
+    margin-bottom: 0;
+  }
+  

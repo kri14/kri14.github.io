@@ -1,1 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!--Bootstrap JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>CBOOK-4</title>
+    <link rel="icon" href="https://github.com/twbs.png" type="favicon" sizes="16x16">
+    <link rel="icon" href="https://github.com/twbs.png" type="favicon" sizes="8x8">
 
+  </head>
+
+
+  <body>
+
+
+    <!----------------------------------------------navbar------------------------------------------------------------->
+  <header id="home">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-primary bg-primary">
+      <div class="container-fluid">
+        <!----------------------------bootsrap buuton--------------------------------------------->
+        <a class="navbar-brand" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">BOOTSTRAP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec1">About US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec2">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec3">TopList</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#custom-cards">Latest News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Form">Suscribe</a>
+            </li>
+          </ul>
+          </div>
+            <!-------------------------Search--------------------------------->
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light btn-white" type="Submit">Search</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+  </div>
+<!-------------------------------------------------------Caraousel-------------------------------------------------------------->
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <img src="img/1 (2).jpg" width="100%" height="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="img/1.jpg" width="100%" height="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="img/1 (1).jpg" width="100%" height="100%">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <!-----------------------------alert for link to preevious messages-------------------------------->
+    <alert>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <a href="#Form" class="alert-link">SUSCRIBE NOW !!!</a>For the latest updates. 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </alert>
+  </main>
+  <!------------------------------------------------------------------------------------------------------------->
+    <section class="container sects">
+      <figure class="text-center border-bottom border-top">
+        <blockquote class="blockquote">
+          <p>“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Dr Seuss in <cite title="Source Title"> " I Can Read With My Eyes Shut! "</cite>
+        </figcaption>
+      </figure>
+      <!----------------------------------------------------------------------------------------------------------------> 
+
+
+    <div class="row " id="sec1" style="padding-top: 10mm;">
+      <div class="col-md-7">
+        <h2 class="heading display-5 fw-bold lh-1 mb-3">About Us</h2>
+        <p class="lead"> The sheer volume of kids’ books published every month can be a bit overwhelming – how do you find the gems? Of course, one answer is to join our book club! We handpick the best children books rangining from classics to modren. </p>
+        <p class="lead" style="font-style: italic;">Join us to keep track of the finest books as they are published and find some excellent online library and blogposts. Some of the resources are given below... </p>
+        <p><a class="btn btn-primary" href="#Form">Suscribe Now »</a></p>
+     
+      </div>
+
+      <div class="col-md-5">
+      
+        <img src="img/collage.jpg" class="image img-fluid mx-auto rounded-3 border-primary" width="500" height="500"> 
+      </div>
+    </div>
+
+    <hr> 
+
+           
+    <div class="row" id="sec2" style="padding-top: 10mm;">
+      <h2 class="heading display-5 fw-bold lh-1 mb-3">Resources</h2>
+      <div class="col-lg-4">
+        <img src="img/blog.png" class="rounded-circle " width="140" height="140"> 
+        <br>
+        <h2>Blogs</h2>
+        <p>22 Best children Literature Blogs to Follow. Here you will find 22 wonderful bloggers that have a MASSIVE archive of reviews.</p>
+        <p><a class="btn btn-primary" href="https://readingmiddlegrade.com/top-kid-lit-blogs/">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+       <img src="img/lib.jpg" class="rounded-circle " width="140" height="140"> 
+       <br>
+        <h2>Online Library</h2>
+        <p>7 Websites With Free Online Books For Kids. Here you will find top 7 websites with good quality, free online books for children</p>
+        <p><a class="btn btn-primary" href="https://www.online-tech-tips.com/cool-websites/7-websites-with-free-online-books-for-kids/">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+       <img src="img/Audiobook.png" class="rounded-circle " width="140" height="140"> 
+       <br>
+        <h2>Audio Books</h2>
+        <p>In the last few years, audio books have exploded in popularity amongst adult readers. here you can find 6 Places to get Free Audio Books for Kids.</p>
+        <p><a class="btn btn-primary" href="https://www.learningliftoff.com/free-audio-books-for-kids/">View details »</a></p>
+      </div>
+    </div>
+
+
+
+    <hr>
+    
+    <div class="row" id="sec3" style="padding-top: 10mm;">
+      <h2 class="heading display-5 fw-bold lh-1 mb-3" style="padding-top: 10mm; padding-bottom: 10mm;"> Top Children's Book According to GoogleReads</h2>
+      <p>
+        <br>
+      </p>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row"> 1  </th>
+            <td class="col-4">
+            <img src="img/arabian.jpg" alt="..." style= " padding-left:10mm; padding-right:10mm; max-width:100% ; max-height: 20%;">
+           </td>
+            <td>
+              <h5>The Arabian Nights</h5>
+              <em>by Anonymous</em>
+              <p>The Arabian Nights is a magic carpet ride to exotic lands full of wonders and marvels presented as stories that crafty Scheherazade tells her husband, King Shahryar, over a thousand-and-one consecutive nights....</p>
+              <a href="https://www.goodreads.com/list/show/99103.Top_100_Children_s_Books_on_Goodreads" class="stretched-link">Read More</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <img src="img/alice.jpg" alt="..." style="padding-left:10mm; padding-right:10mm; max-width:100% ; max-height: 20%;">
+            </td>
+            <td>
+              <h5>Through the Looking-Glass</h5>
+              <em>by Lewis Carroll</em>
+              <p>When Alice sees a white rabbit take a watch out of its waistcoat pocket she decides to follow it, and a sequence of most unusual events is set in motion.</p>
+              <a href="https://www.goodreads.com/list/show/99103.Top_100_Children_s_Books_on_Goodreads" class="stretched-link">Read More</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><img src="img/m.jpg" alt="..." style=" padding-left:10mm; padding-right:10mm; max-width:100% ; max-height: 20%;"></td>
+            <td>
+              <h5>Matilda</h5>
+              <em>by Roald Dahl</em>
+              <p>Matilda is a little girl who is far too good to be true. At age five-and-a-half she's knocking off double-digit multiplication problems and blitz-reading Dickens...</p>
+              <a href="https://www.goodreads.com/list/show/99103.Top_100_Children_s_Books_on_Goodreads" class="stretched-link">Read More</a>
+            </td>
+          </tr>
+          <tr> <td colspan="3" align="center"> <a class="btn btn-primary" href="https://www.goodreads.com/list/show/99103.Top_100_Children_s_Books_on_Goodreads"> View details »  </a> </td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+  <!---------------------------------------------Custom Cards -------------------------------------------------->
+  <section class="container py-5" id="custom-cards">
+    <h2 class="display-5 fw-bold lh-1 mb-3">Latest News Update 2021</h2>
+    <div class="row row-cols-3 align-items-stretch py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/4.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">JK Rowling releases's "The Christams Pig" in October</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <a href="https://timesofindia.indiatimes.com/life-style/books/features/jk-rowlings-new-childrens-book-to-release-in-october/articleshow/82065374.cms" style="color:white">
+                  Read More
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">UNESCO's Bookfacechallenge on World Book Day 2021</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+              <a href="https://en.unesco.org/commemorations/worldbookday" style="color:white">
+                Read More
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Children read more challenging books in lockdowns</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <a href="https://www.theguardian.com/books/2021/apr/29/children-read-longer-more-challenging-books-in-lockdown" style="color:white">
+                  Read More
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr >
+  </section>
+<!---------------------------------------------------------------- Form -------------------------------------------------------------->
+  <section id="Form">
+    <div class="container col-xl-10 col-xxl-8 px-4">
+      <div class="row align-items-center g-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-3 fw-bold lh-1 mb-3">Suscribe Now</h1>
+          <p class="col-lg-10 fs-4">Fill the form to get the latest updates on bestseller children books and other latest offers. </p>
+        </div>
+        <div class="col-10 mx-auto col-lg-5">
+          <form class="p-5 border border-primary rounded-3 bg-light">
+            <div class="mb-3">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control border border-primary" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control border border-primary" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="EMAIL" class="form-label">Email address</label>
+              <input type="email" class="form-control border border-primary" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Submit</button>
+          </div> 
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Subscribed</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          Thankyou for Suscribing. We will Keep you updated with the latest Best Sellers !!!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr >
+</section>
+<!-------------------------------------------------------------------------------------------------------------------->
+  <footer class="container">
+    <p class="float-lg-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021  <a href="https://github.com/kri14/Web-Tech-sem4-">Practicals ( Kriti Aggarwal) </a></p>
+  </footer>
+  </body>
+</html>

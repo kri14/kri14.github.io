@@ -11,22 +11,22 @@ function initGrid() {
         }
     }
 
-    // creating colored tiles
-    var cdiv = document.getElementById("colors");
+// creating colored tiles
+    var colordiv = document.getElementById("colors");
     for (var i = 0; i < colors.length; i++) {
         var tile = document.createElement("div");
         tile.className = "choice";
         tile.style.backgroundColor = colors[i];
         tile.addEventListener("click", tileClicked);
-        cdiv.appendChild(tile);
+        colordiv.appendChild(tile);
     }
 }
 
 function tileClicked() {
     var color = this.style.backgroundColor;
-    var sel = document.getElementById("selected");
-    sel.style.backgroundColor = color;
-    sel.innerHTML = color;
+    var select_c = document.getElementById("selected");
+    select_c.style.backgroundColor = color;
+    select_c.innerHTML = color;
 }
 
 window.onload = function () {

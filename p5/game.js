@@ -1,11 +1,24 @@
 /* TODO implement game logic here */
 window.onload = function () {
+
     let labyrinth = new Labyrinth();
     labyrinth.printConsole();
     labyrinth.printDisplay('map');
+     
+    // move the player 
+
     document.onkeypress = function (event) {
         var char = event.key;
+
+        /*
+                        w (38)
+                a(37)              d (39)
+                        s (40)
+
+
+        */
         if (char == 'a') {
+
             if (labyrinth.playerPos.x - 1 >= 0 && labyrinth.map[labyrinth.playerPos.y][labyrinth.playerPos.x - 1] == 0) {
                 labyrinth.playerPos.x -= 1;
                 labyrinth.player.style.left = (labyrinth.playerPos.x * CELL_SIZE).toString() + 'px';

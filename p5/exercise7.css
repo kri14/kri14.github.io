@@ -26,10 +26,12 @@ ul#playlist li:first-child {
     border-top-left-radius: 5px;
 }
 
+/* for the second part #7b */
 /* added for 7b */
 ul#playlist li {
     position: relative;
 }
+
 img.delete {
     position: absolute;
     right: 5px;
